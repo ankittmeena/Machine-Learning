@@ -1,0 +1,76 @@
+Data Set -
+    Heart Failure Prediction
+
+About dataset -
+    Heart failure is a common event caused by CVDs and 
+    this dataset contains 12 features that can be used to predict mortality by heart failure.
+    People with cardiovascular disease or who are at high cardiovascular risk 
+    (due to the presence of one or more risk factors such as hypertension, diabetes, hyperlipidaemia 
+    or already established disease) need early detection and management where in 
+    a machine learning model can be of great help.
+
+usage of dataset - 
+    we can Create a model for predicting mortality caused by Heart Failure.
+
+Attributes -
+    age,
+    anaemia,
+    creatinine_phosphokinase
+    diabetes',
+    'ejection_fraction', 
+    'high_blood_pressure', 
+    'platelets',
+    'serum_creatinine', 
+    'serum_sodium', 
+    'sex', 
+    'smoking', 
+    'time',
+    'DEATH_EVENT'
+*********************************************************************************************************
+Features -
+    Feature                	Explanation                                 Measurement    	    Range   
+
+Age                    	Age of the patient                            	Years          	    [40,…, 95]  
+
+Anaemia                	Decrease of red blood cells or hemoglobin      	Boolean        	    0, 1
+
+High blood pressure    	If a patient has hypertension      	            Boolean        	    0, 1 
+
+Creatinine phosphokinase (CPK)	Level of the CPK enzyme in the blood     mcg/L              [23,…, 7861]
+
+Diabetes                	If the patient has diabetes                  Boolean        	0, 1
+
+Ejection fraction      	Percentage of blood leaving                    	Percentage      	[14,…, 80]
+
+Sex                    	Woman or man                                  	Binary          	0, 1 
+
+Platelets              	Platelets in the blood                        	kiloplatelets/mL	[25.01,…, 850.00]
+
+Serum creatinine        Level of creatinine in the blood              	mg/dL          	[0.50,…, 9.40]
+
+Serum sodium            	Level of sodium in the blood                  	mEq/L          	[114,…, 148]
+
+Smoking                	If the patient smokes                          	  Boolean        	    0, 1
+
+Time                    	Follow-up period        	                    Days            [4,…,285]
+
+(target) death event    	If the patient died during the follow-up period	Boolean        	0, 1        
+
+
+****************************************************************************************************
+
+modal used -
+    Logistic regression modal
+***************************************************************************************************
+classes -
+    range 0-1
+    0-0.2 very low risk
+    0.2 - 0.4 low risk
+    0.4 - 0.6 high risk
+    0.6 - 0.8 very high risk
+    0.8 - 1 extreme condition
+
+source-
+    Kaggle
+    https://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records
+    https://creativecommons.org/licenses/by/4.0/
